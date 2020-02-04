@@ -1,0 +1,35 @@
+canvas {
+  background: rgb(56, 56, 56);
+
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  background-color: rgb(25, 25, 25);
+}
+
+.title {
+  text-align: center;
+  color: #00a90b;
+  margin-top: 100px;
+}
+
+.play {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+  background-color: #00a90b;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
