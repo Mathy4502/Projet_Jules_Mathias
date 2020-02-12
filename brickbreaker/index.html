@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,15 +10,24 @@
     <title>Page Début</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body class="index">
+<body>
+
     <h1 class="title">Bonjour et bienvenue sur notre Casse-Briques !</h1>
-    <h2 class="title"> Prêt à battre des records ?</h2>
-    <button class="play"><a href="game.html">C'est parti !</a></button>
+    <h2 class="title1"> Prêt à battre des records ?</h2>
 
+    <a> <button onclick="window.location.href = 'lvl1.html';" class="btn_idx">Niveau 1</button></a>
+    <a> <button onclick="window.location.href = 'lvl2.html';" class="btn_idx">Niveau 2</button></a>
+    <a> <button onclick="window.location.href = 'lvl3.html';" class="btn_idx">Niveau 3</button></a>
+    <a> <button onclick="window.location.href = 'survival.html';" class="btn_idx">Survival Mode</button></a>
+    <a href="regles.html"> <button class="btn_idx">Règles et commandes</button></a>
+
+    <div class="credit">
+
+        <p> <img src="./img/copyright.png" class="copy"> Ménard Mathias/Guérin Jules</p>
+    </div>
 </body>
-
-
 
 </html>

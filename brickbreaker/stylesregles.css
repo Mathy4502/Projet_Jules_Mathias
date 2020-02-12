@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: #00a90b;
+    text-align: center;
+}
+.regles{
+display: flex;
+flex-direction: row;
+float:left;
+margin: auto;
+text-align: center;
+margin-top: 13%;
+;
+
+}
+
+.commandes{
+    
+margin-top: 240px;
+}
+.compad{
+    padding-top: 50px;
+}
+.regpad{
+    padding-top: 20px;
+}
+.btn {
+    color: white;
+    background-color: #00a90b;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+  
+  }
+  a {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 35px;
+    text-decoration: none;
+  }
+  .accueil{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 80px;
+  }
+/* Nom en bas a droite*/
+.credit{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #00a90b;
+    text-align: right;
+    font-size: 13px;
+}
+/*logo*/
+.copy{
+    width: 10px;
+    height: 10px;
+}
+.copyright{
+padding-right: 9px;
+}

@@ -1,35 +1,94 @@
-canvas {
-  background: rgb(56, 56, 56);
-
-}
-
-.game {
-  display: flex;
-  justify-content: center;
-}
-
-html {
-  background-color: rgb(25, 25, 25);
-}
+/* -----------------------------------Index--------------------------------------- */
 
 .title {
+  display: flex;
   text-align: center;
+  justify-content: center;
   color: #00a90b;
-  margin-top: 100px;
+  margin: auto;
+  margin-top: 22px;
 }
 
-.play {
+.title1 {
+  display: flex;
   text-align: center;
-  display: block;
+  justify-content: center;
+  color: #00a90b;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.btn_idx {
+  color: white;
   background-color: #00a90b;
   border: none;
   padding: 15px;
   border-radius: 8px;
+
+}
+
+/* -----------------------------------Pages--------------------------------------- */
+
+html.page {
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+/* -----------------------------------Canevas--------------------------------------- */
+
+#monCnvs {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  background: rgb(56, 56, 56);
+}
+
+/* -----------------------------------Button--------------------------------------- */
+
+.top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(25, 25, 25);
+}
+
+.btn1 {
+  float: left;
+  display: block;
+  color: white;
+  background-color: #00a90b;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  margin-right: 2px;
 }
 
 a {
-  color: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
   text-decoration: none;
+}
+/* Nom en bas a droite*/
+.credit{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #00a90b;
+  text-align: right;
+  font-size: 13px;
+}
+/*logo*/
+.copy{
+  width: 10px;
+  height: 10px;
 }
